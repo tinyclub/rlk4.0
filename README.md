@@ -121,6 +121,34 @@ Open a new terminal and use gdb to debug it:
     1638		int trace = 0;
 
 
+### Testing
+
+Linux Lab allows us to do some simple testings:
+
+Simply boot and poweroff:
+
+    $ make test
+
+Don't poweroff after testing (Simply boot):
+
+    $ make test TEST_FINISH=echo
+
+Run guest test case:
+
+    $ make test TEST_CASE=/tools/ftrace/trace.sh
+
+Reboot the guest system for several times:
+
+    $ make test TEST_REBOOT=2
+
+Test a kernel module:
+
+    $ make module-test m=oops_test
+
+Test a kernel module and make some targets before testing:
+
+    $ make module-test m=oops_test TEST=kernel-checkout,kernel-patch
+
 ## Hacking rootfs with buildroot
 
 ### Install tools into rootfs
