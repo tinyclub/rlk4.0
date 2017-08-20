@@ -9,7 +9,7 @@ Before using this RLK4.0 plugin, we need to install [Linux Lab](https://github.c
 
 To save your install time, we can buy a online Linux Lab from <https://weidian.com/?userid=335178200>
 
-The step-by-step usage is documented below, or you can watch recorded videos in [showterm](http://showterm.io/e786d08e0ea0964f3efb1) and in [showdesk]().
+The step-by-step usage is documented below, or you can watch recorded videos in [showterm](http://showterm.io/e786d08e0ea0964f3efb1) and in [showdesk](http://showdesk.io/2017-08-20-15-15-09-using-rlk4.0-in-linux-lab-00-15-58/).
 
 ## Quick start
 
