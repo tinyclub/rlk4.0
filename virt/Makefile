@@ -15,8 +15,8 @@ ROOTDEV ?= /dev/ram0
 FSTYPE  ?= ext2
 ORIIMG  ?= arch/$(ARCH)/boot/Image
 CCPRE   ?= aarch64-linux-gnu-
-KIMAGE  ?= $(TOP_DIR)/boards/$(BOARD)/kernel/$(XARCH)/$(LINUX)/Image
+KIMAGE  ?= $(BOARD_KERNEL)/$(XARCH)/$(LINUX)/Image
 # The old busybox rootfs is not powerful enough
-#ROOTFS  ?= $(TOP_DIR)/boards/$(BOARD)/root/rootfs.cpio.gz
+#ROOTFS  ?= $(BOARD_ROOT)/$(BUILDROOT)/rootfs.cpio.gz
 # Use the prebuilt one of Linux Lab
-ROOTFS  ?= $(PREBUILT_ROOT)/$(XARCH)/$(CPU)/rootfs.cpio.gz
+ROOTFS  ?= $(BOARD_ROOT)/$(BUILDROOT)/rootfs.cpio.gz
