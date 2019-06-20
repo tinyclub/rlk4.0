@@ -1,13 +1,11 @@
 
 # Linux Lab Plugin: RLK4.0
 
-This is a clone of <https://github.com/figozhang/runninglinuxkernel_4.0>, added as a plugin of [Linux Lab](https://github.com/tinyclub/linux-lab).
+This is a clone of <https://github.com/figozhang/runninglinuxkernel_4.0>, added as a plugin of [Linux Lab](https://gitee.com/tinylab/linux-lab).
 
 It aims to speed up the experiment environment building for the [RLK4.0](http://www.epubit.com.cn/book/details/4835) Book.
 
-Before using this RLK4.0 plugin, we need to install [Linux Lab](https://github.com/tinyclub/linux-lab) at first, please refer to <https://tinylab.org/linux-lab>.
-
-To save your install time, we can buy a online Linux Lab from <https://weidian.com/?userid=335178200>
+Before using this RLK4.0 plugin, we need to install [Linux Lab](https://gitee.com/tinylab/linux-lab) at first, please refer to <https://tinylab.org/linux-lab>.
 
 The step-by-step usage is documented below, or you can watch recorded videos in [showterm](http://showterm.io/e786d08e0ea0964f3efb1) and in [showdesk](http://showdesk.io/2017-08-20-15-15-09-using-rlk4.0-in-linux-lab-00-15-58/).
 
@@ -16,7 +14,7 @@ The step-by-step usage is documented below, or you can watch recorded videos in 
 ### Download rlk4.0 to boards/
 
     $ cd /labs/linux-lab/boards
-    $ git clone https://github.com/tinyclub/rlk4.0
+    $ git clone https://gitee.com/tinylab/rlk4.0
 
 ### Select the arm64 board: rlk4.0/virt
 
@@ -176,7 +174,7 @@ Qemu Board:
 
 ### Download, Configure and Compile rootfs
 
-Download [buildroot](https://github.com/buildroot/buildroot) repo to `buildroot/`:
+Download [buildroot](https://gitee.com/buildroot/buildroot) repo to `buildroot/`:
 
     $ make root-source
 
